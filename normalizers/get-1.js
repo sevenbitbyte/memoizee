@@ -1,6 +1,6 @@
 "use strict";
 
-var indexOf = require("es5-ext/array/#/e-index-of");
+var indexOf = require("es5-ext/array/_hash_/e-index-of");
 
 module.exports = function () {
 	var lastId = 0, argsMap = [], cache = [];

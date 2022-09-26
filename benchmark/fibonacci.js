@@ -10,7 +10,7 @@
 // $ node benchmark/fibonacci.js
 
 var forEach      = require("es5-ext/object/for-each")
-  , pad          = require("es5-ext/string/#/pad")
+  , pad          = require("es5-ext/string/_hash_/pad")
   , memoizee     = require("..")
   , underscore   = require("underscore").memoize
   , lodash       = require("lodash").memoize
